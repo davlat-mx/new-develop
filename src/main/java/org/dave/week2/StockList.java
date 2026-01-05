@@ -37,8 +37,8 @@ public class StockList {
     You will receive the bookseller's stocklist and a list of categories.
     Your task is to find the total number of books in the bookseller's stocklist,
     with the category codes in the list of categories. Note: the codes are in the same order in both lists.
-    Return the result as a string described in the example below, or as a list of pairs (Haskell/Clojure/Racket/Prolog).
-    If any of the input lists is empty, return an empty string, or an empty array/list (Clojure/Racket/Prolog).
+    Return the result as a string described in the example below, or as a list of pairs.
+    If any of the input lists is empty, return an empty string, or an empty array/list.
 
     # the bookseller's stocklist:
     "ABART 20", "CDXEF 50", "BKWRK 25", "BTSQZ 89", "DRTYM 60"
