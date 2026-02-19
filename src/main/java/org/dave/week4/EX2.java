@@ -19,13 +19,13 @@ public class EX2 {
                 if (n >= Byte.MIN_VALUE && n <= Byte.MAX_VALUE) {
                     System.out.println("* byte");
                 }
-                else if (n >= Short.MIN_VALUE && n <= Short.MAX_VALUE) {
+                if (n >= Short.MIN_VALUE && n <= Short.MAX_VALUE) {
                     System.out.println("* short");
                 }
-                else if (n >= Integer.MIN_VALUE && n <= Integer.MAX_VALUE) {
+                if (n >= Integer.MIN_VALUE && n <= Integer.MAX_VALUE) {
                     System.out.println("* int");
                 }
-                else if (n >= Long.MIN_VALUE && n <= Long.MAX_VALUE) {
+                if (n >= Long.MIN_VALUE && n <= Long.MAX_VALUE) {
                     System.out.println("* long");
                 }
             } catch (Exception e) {
