@@ -4,7 +4,7 @@ public class EX3 {
     static int B;
     static int H;
 
-    public static void main(String[] args) {
+    static {
 
         int[][] arr = {
             {2, 3},
@@ -22,5 +22,8 @@ public class EX3 {
                 System.out.println(B * H);
             }
         }
+    }
+
+    public static void main(String[] args) {
     }
 }
